@@ -607,7 +607,7 @@
 <h3 id="MoE-ACT-Improving-Surgical-Imitation-Learning-Policies-through-Supervised-Mixture-of-Experts"><a href="#MoE-ACT-Improving-Surgical-Imitation-Learning-Policies-through-Supervised-Mixture-of-Experts" class="headerlink" title="MoE-ACT: Improving Surgical Imitation Learning Policies through Supervised Mixture-of-Experts"></a><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2601.21971v1">MoE-ACT: Improving Surgical Imitation Learning Policies through Supervised Mixture-of-Experts</a></h3><p><strong>Categories:</strong> Robotics,Reinforcement Learning,Vision-Language Models</p>
 <p>模仿学习在机器人操作领域取得了显著成功，但其在手术机器人中的应用仍面临诸多挑战，主要由于数据稀缺、受限的工作空间以及对极高安全性和可预测性的需求。我们提出了一种监督式的专家混合（Mixture-of-Experts, MoE）架构，专门用于具有阶段结构的手术操作任务，该架构可以叠加在任何自主策略之上。与以往依赖多摄像头设置或数千个示例的手术机器人学习方法不同，我们展示了一种轻量级动作解码策略，如动作分块变换器（Action Chunking Transformer, ACT），在仅使用立体内窥镜图像的情况下，通过不到150个示例即可学习复杂且具有长时间跨度的操作任务。我们评估了该方法在肠道抓取和回拉的协作手术任务中的表现，其中机器人助手能够解读人类外科医生的视觉线索，对可变形组织进行精准抓取，并执行持续回拉操作。我们将其方法与最先进的视觉-语言-动作（Vision-Language-Action, VLA）模型以及标准ACT基线进行了对比。实验结果表明，通用型VLA模型即使在标准分布条件下也难以完全掌握任务。此外，尽管标准ACT在分布内条件下取得中等程度的成功，但采用监督式MoE架构显著提升了其性能，在分布内条件下实现了更高的成功率，并在分布外场景（包括新的抓取位置、光照减弱以及部分遮挡）中表现出更强的鲁棒性。值得注意的是，该方法能够推广到未见过的测试视角，并且无需额外训练即可零样本迁移至体外猪组织，为体内部署提供了有前景的途径。为支持这一结论，我们展示了在体内猪手术过程中策略部署的定性初步结果。</p>
 <h3 id="See-Without-Decoding-Motion-Vector-Based-Tracking-in-Compressed-Video"><a href="#See-Without-Decoding-Motion-Vector-Based-Tracking-in-Compressed-Video" class="headerlink" title="See Without Decoding: Motion-Vector-Based Tracking in Compressed Video"></a><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2602.00153v1">See Without Decoding: Motion-Vector-Based Tracking in Compressed Video</a></h3><p><strong>Categories:</strong> Robotics</p>
-<p>我们提出了一种轻量级的压缩域跟踪模型，该模型直接在视频流上运行，而无需对完整的RGB视频进行解码。通过利用压缩数据中的运动向量和变换系数，我们的深度模型能够在帧之间传播目标边界框，与RGB基线模型相比，在MOTS15&#x2F;17&#x2F;20数据集上仅导致4%的<a href="mailto:&#x6d;&#65;&#80;&#64;&#48;&#x2e;&#x35;">mAP@0.5</a>略有下降的情况下，实现了高达3.7倍的计算加速。这些结果突显了在大型监控系统中实现实时分析的编码域运动建模的高效性。</p>
+<p>我们提出了一种轻量级的压缩域跟踪模型，该模型直接在视频流上运行，而无需对完整的RGB视频进行解码。通过利用压缩数据中的运动向量和变换系数，我们的深度模型能够在帧之间传播目标边界框，与RGB基线模型相比，在MOTS15&#x2F;17&#x2F;20数据集上仅导致4%的<a href="mailto:&#109;&#65;&#x50;&#x40;&#x30;&#46;&#x35;">mAP@0.5</a>略有下降的情况下，实现了高达3.7倍的计算加速。这些结果突显了在大型监控系统中实现实时分析的编码域运动建模的高效性。</p>
 <h3 id="Advanced-techniques-and-applications-of-LiDAR-Place-Recognition-in-Agricultural-Environments-A-Comprehensive-Survey"><a href="#Advanced-techniques-and-applications-of-LiDAR-Place-Recognition-in-Agricultural-Environments-A-Comprehensive-Survey" class="headerlink" title="Advanced techniques and applications of LiDAR Place Recognition in Agricultural Environments: A Comprehensive Survey"></a><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2601.22198v1">Advanced techniques and applications of LiDAR Place Recognition in Agricultural Environments: A Comprehensive Survey</a></h3><p><strong>Categories:</strong> Robotics</p>
 <p>为开发自主机器人系统，解决定位问题的最优解至关重要。除了自动驾驶汽车外，精准农业是能够从这些系统中获益最多的领域之一。尽管近年来LiDAR（光探测和测距）用于实现精确定位的技术被广泛应用，但其主要应用于城市环境。然而，农业环境缺乏显著特征且结构不明确，使得位置识别变得极具挑战性。本文全面回顾了目前最先进的深度学习方法在农业环境中的应用以及LiDAR位置识别技术。我们重点分析了这些环境中出现的挑战，评估了现有方法、数据集和用于评估LPR系统性能的指标，并讨论了该领域研究的局限性及未来发展方向。这是首篇专注于农业环境中基于LiDAR的定位技术的综述文章，旨在提供深入的理解，并促进该专门领域进一步的研究。</p>
 <h3 id="Disentangling-perception-and-reasoning-for-improving-data-efficiency-in-learning-cloth-manipulation-without-demonstrations"><a href="#Disentangling-perception-and-reasoning-for-improving-data-efficiency-in-learning-cloth-manipulation-without-demonstrations" class="headerlink" title="Disentangling perception and reasoning for improving data efficiency in learning cloth manipulation without demonstrations"></a><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2601.21713v1">Disentangling perception and reasoning for improving data efficiency in learning cloth manipulation without demonstrations</a></h3><p><strong>Categories:</strong> Robotics,Reinforcement Learning</p>
@@ -899,6 +899,15 @@
 
    
   <nav class="article-nav">
+    
+      <a href="/2026/02/06/2026-02-04/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            论文报纸 2026-02-04
+          
+        </div>
+      </a>
     
     
       <a href="/2026/02/06/2026-01-30/" class="article-nav-link">
